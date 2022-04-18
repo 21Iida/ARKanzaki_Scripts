@@ -5,4 +5,4 @@ GooglePlay版：https://play.google.com/store/apps/details?id=jp.ac.shonan_it.sc
 AppStore版：https://apps.apple.com/us/app/ar%E7%A5%9E%E5%B4%8E%E9%81%BA%E8%B7%A1/id1534412241  
 新聞などで紹介していただきました https://www.nikkei.com/article/DGXMZO66726320X21C20A1L82000/  
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/50763395/163793958-09fae1d8-d7e1-46b5-8887-a5fabd387fcc.png)
