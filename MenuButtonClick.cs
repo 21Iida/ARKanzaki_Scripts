@@ -1,10 +1,11 @@
-﻿//デバッグ用。実機で弄れるインスペクター画面のオンオフ
-
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// デバッグ用。実機で弄れるインスペクター画面のオンオフ
+/// <summary>
 public class MenuButtonClick : MonoBehaviour
 {
     [SerializeField] Toggle toglle;

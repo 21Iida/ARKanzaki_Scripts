@@ -1,9 +1,10 @@
-﻿//タイトル画面で使い方画面、設定画面の行き来をする
-
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// タイトル画面で使い方画面、設定画面の行き来をする
+/// <summary>
 public class UIOpenClose : MonoBehaviour
 {
     [SerializeField] GameObject UseUI,SettingUI;

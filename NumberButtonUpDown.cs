@@ -14,11 +14,6 @@ public class NumberButtonUpDown : MonoBehaviour
         inputField = this.GetComponent<InputField>();
     }
 
-    void Update()
-    {
-        
-    }
-
     public void UpNumberButton()
     {
         if(float.TryParse(inputField.text, out float result))

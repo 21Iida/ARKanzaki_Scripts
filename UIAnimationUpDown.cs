@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-
-//矢印をアニメーションさせるだけ
+/// <summary>
+/// 矢印をループアニメーションさせます
+/// <summary>
 public class UIAnimationUpDown : MonoBehaviour
 {
     [SerializeField] float DurationSeconds;

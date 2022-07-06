@@ -1,11 +1,13 @@
-﻿//クリックしたボタンのアニメーションをさせるやつ
-//ボタンのスケールの値は(1,1,1)じゃないとアニメーション終了時にUIがおかしくなる
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
 
+/// <summary>
+/// クリックしたボタンのアニメーションをさせるやつです
+/// ボタンのスケールの値は(1,1,1)じゃないとアニメーション終了時にUIがおかしくなります
+/// <summary>
 public class ButtonAnimation : MonoBehaviour
 {
     Tweener tweener = null;

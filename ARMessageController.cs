@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 操作説明用のメッセージを表示します
+/// <summary>
 public class ARMessageController : MonoBehaviour
 {
 
@@ -13,18 +16,16 @@ public class ARMessageController : MonoBehaviour
     bool fadeIn = false;
     bool fadeOut = false;
 
-public    int phaseIndex;
+    public int phaseIndex;
 
     public bool isShowing = true;
     string messageString = "";
 
-    // Start is called before the first frame update
     void Start()
     {
         changeText(0);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(isShowing && alpha < maxAlpha){
@@ -41,12 +42,15 @@ public    int phaseIndex;
                 fadeIn = false;
             }
         }
-        if(fadeOut){
+        if(fadeOut)
+        {
             alpha -= fadeSpeed;
-            if(alpha <= 0){
+            if(alpha <= 0)
+            {
                 alpha = 0.0f;
                 fadeOut = false;
-                if(phaseIndex == 0){
+                if(phaseIndex == 0)
+                {
                     changeText(1); // 初期表示から次のメッセージへ転換
                 }
             }
@@ -56,9 +60,11 @@ public    int phaseIndex;
 
     }
 
-    public void changeText(int newIndex){
+    public void changeText(int newIndex)
+    {
         phaseIndex = newIndex;
-        switch(phaseIndex){
+        switch(phaseIndex)
+        {
             case 0:
                 messageString = "看板のQRコードを写してください";
                 break;

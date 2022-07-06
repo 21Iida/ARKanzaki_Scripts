@@ -2,20 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// マップの表示を切り替えます
+/// <summary>
 public class MapActive : MonoBehaviour {
 
 	public GameObject Map;
 
-	// Use this for initialization
 	void Start () {
 		Map.SetActive (false);
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
 	public void GoActive(bool active){
 		if (Map)
 			Map.SetActive (active);

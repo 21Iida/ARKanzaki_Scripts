@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-//ボタンを強調させるアニメーションを再生するだけ
+/// <summary>
+/// ボタンを強調させるアニメーションをします
+/// <summary>
 public class UIAnimationScale : MonoBehaviour
 {
     [SerializeField] float DurationSeconds;
